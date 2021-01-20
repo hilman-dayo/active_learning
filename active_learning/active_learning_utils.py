@@ -6,8 +6,8 @@ import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader, Subset
 import numpy as np
 
-import tensorflow as tf
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
+SummaryWriter = None
 
 from torchvision import datasets
 from discriminative_learning import *
